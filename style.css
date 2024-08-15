@@ -17,3 +17,10 @@ h2{
     text-align: center;
     margin-top: auto;
 }
+
+p {
+    text-align: left;
+    background-color: black;
+    color: black;
+    width: 800px;
+}
