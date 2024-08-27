@@ -1,50 +1,56 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
 
-header {
-    background-color: #000000; /* Replace with NRG's primary color */
-    color: #ffffff;
-    padding: 20px;
-}
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #000, #E53B2C, #fff);
+            color: #fff;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
+        .container {
+            text-align: center;
+            border: 5px solid #E53B2C;
+            padding: 50px;
+            background-color: rgba(0, 0, 0, 0.8);
+            opacity: 0;
+            animation: fadeIn 2s forwards;
+        }
 
-nav ul li {
-    display: inline-block;
-    margin-right: 20px;
-}
+        h1 {
+            font-size: 48px;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+        }
 
-nav ul li a {
-    text-decoration: none;
-    color: #ffffff;
-}
+        .links {
+            margin-top: 20px;
+        }
 
-section {
-    padding: 40px;
-}
+        .links a {
+            display: inline-block;
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 10px;
+            padding: 15px 30px;
+            border: 2px solid #E53B2C;
+            border-radius: 5px;
+            background-color: rgba(0, 0, 0, 0.7);
+            transition: background-color 0.3s, transform 0.3s;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
 
-#team {
-    background-color: #f0f0f0; /* Replace with a suitable background color */
-}
+        .links a:hover {
+            background-color: #E53B2C;
+            transform: scale(1.1);
+        }
 
-#games {
-    background-color: #e0e0e0; /* Replace with a suitable background color */
-}
-
-#dashboard {
-    background-color: #d0d0d0; /* Replace with a suitable background color */
-}
-
-footer {
-    background-color: #000000;
-    color: #ffffff;
-    text-align: center;
-    padding: 20px;
-}
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
