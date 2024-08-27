@@ -1,0 +1,36 @@
+/* Specific styles for the Events page */
+.event-list {
+    padding: 20px;
+    background-color: #1A1A1A; /* Slightly lighter background */
+    margin-top: 20px;
+}
+
+.event {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.event h2 {
+    color: #DC3545; /* Sentinels' red */
+    margin-bottom: 10px;
+}
+
+.event p {
+    margin: 5px 0;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333333;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* Highlight the active navigation link */
+nav a.active {
+    color: #DC3545;
+}
