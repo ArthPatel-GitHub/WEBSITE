@@ -19,6 +19,18 @@ header h1 {
     margin: 0;
     font-size: 2.5em;
 }
+h3{
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+}
+
+li{
+    list-style-type: none !important;
+    
+}
 
 nav {
     background-color: #333333; /* Dark nav background */
@@ -66,14 +78,140 @@ footer {
     width: 100%;
     bottom: 0;
 }
-/* CSS for downsizing roster images */
+/*downsizing roster images */
 #roster img {
-    width: 150px; /* Adjust this value to the desired width */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 20px; /* Add space below each image */
-    border-radius: 10px; /* Optional: Adds rounded corners */
-    object-fit: cover; /* Ensures the image covers the container without distortion */
-    display: block; /* Ensures the image starts on a new line */
+    width: 250px; 
+    height: auto; 
+    margin-bottom: 20px;
+    border-radius: 10px; 
+    object-fit: cover; 
+    display: block; 
     margin-left: auto;
     margin-right: auto;
+}
+
+
+
+
+
+
+
+/* Header container for icons */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #DC3545; 
+}
+
+/* Flex container for the hamburger menu and person icon */
+.header-icons {
+    display: flex;
+    align-items: center;
+}
+
+/* Person Icon styles */
+.person-icon img {
+    width: 30px; 
+    height: 30px; 
+    margin-left: 20px; 
+    cursor: pointer;
+}
+
+.person-icon img:hover {
+    filter: brightness(80%);
+}
+
+/* Hamburger Menu styles (repeated for context) */
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.hamburger div {
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+/* Login page styles */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #111;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #DC3545; 
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ddd;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+.login-button {
+    padding: 10px;
+    background-color: #DC3545;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-button:hover {
+    background-color: #a12832;
+}
+
+.extra-links {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.extra-links a {
+    color: #DC3545;
+    text-decoration: none;
+}
+
+.extra-links a:hover {
+    text-decoration: underline;
 }
