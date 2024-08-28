@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-    background-color: #FF4655; /* Valorant red */
+    background-color: #0F1923; /* Valorant red */
     padding: 20px;
     text-align: center;
     color: #FFFFFF;
@@ -27,6 +27,12 @@ h1 {
     font-weight: 900;
     letter-spacing: 2px;
 }
+
+li{
+    text-align: center;
+    list-style-type: none !important;
+}
+
 
 .main-content {
     padding: 20px;
@@ -77,7 +83,7 @@ h2 {
 }
 
 footer {
-    background-color: #1C232B;
+    background-color: #FF4655;
     color: #E6E6E6;
     text-align: center;
     padding: 10px;
