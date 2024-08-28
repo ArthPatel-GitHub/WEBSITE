@@ -1,0 +1,94 @@
+/* schedule page css */
+
+body {
+    background-color: #0F1923; 
+    color: #E6E6E6; 
+    font-family: 'Raleway', sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #0F1923; /* Valorant red */
+    padding: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.header .logo img {
+    width: 100px;
+    height: auto;
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+li{
+    text-align: center;
+    list-style-type: none !important;
+}
+
+
+.main-content {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2em;
+    border-bottom: 2px solid #FF4655;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.event-card {
+    display: flex;
+    background-color: #1C232B;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.event-date {
+    background-color: #FF4655;
+    color: #FFFFFF;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    margin-right: 20px;
+    flex-basis: 25%;
+}
+
+.event-date p {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.event-details h3 {
+    color: #FF4655;
+    margin: 0;
+    font-size: 1.8em;
+}
+
+.event-details p {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: #FF4655;
+    color: #E6E6E6;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+}
