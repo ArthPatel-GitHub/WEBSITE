@@ -1,5 +1,5 @@
 
-/* Header container for icons *
+/* Header container for icons */
 .header {
     display: flex;
     justify-content: space-between;
@@ -14,7 +14,7 @@
     align-items: center;
 }
 
-/* Person Icon styles *
+/* Person Icon styles */
 .person-icon img {
     width: 30px; 
     height: 30px; 
@@ -26,7 +26,7 @@
     filter: brightness(80%);
 }
 
-/* Hamburger Menu styles *
+/* Hamburger Menu styles */
 .hamburger {
     display: flex;
     flex-direction: column;
@@ -42,4 +42,3 @@
     background-color: #fff;
 }
 
-*/
