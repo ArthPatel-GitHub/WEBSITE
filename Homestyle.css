@@ -35,7 +35,7 @@ main {
     color: white;
     padding: 20px;   
     background-image: url("https://www.riotgames.com/darkroom/1440/a4e88f6b04bf83f1c417e87292b85606:b62ff9b783f3dd26a6321e1440efe13b/riot-games-the-team-behind-worlds-2022-esports-broadcast-league-of-legends.png");
-    height: 600px;
+    height: 800px;
     background-size: cover;
     flex: 1;
 }
@@ -44,24 +44,27 @@ section#Sentinels {
     font-size: 30px;
     color: white;
     padding: 20px;   
-    background-image: url("https://www.riotgames.com/darkroom/1440/a4e88f6b04bf83f1c417e87292b85606:b62ff9b783f3dd26a6321e1440efe13b/riot-games-the-team-behind-worlds-2022-esports-broadcast-league-of-legends.png");
-    height: 600px;
+    background-image: url("https://cdn.sentinels.gg/images/cards/default.jpg");
+    height: 800px;
+    background-size: cover;
 
 }
 section#Loud {
     font-size: 30px;
     color: white;
     padding: 20px;   
-    background-image: url("https://www.riotgames.com/darkroom/1440/a4e88f6b04bf83f1c417e87292b85606:b62ff9b783f3dd26a6321e1440efe13b/riot-games-the-team-behind-worlds-2022-esports-broadcast-league-of-legends.png");
-    height: 600px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Dd7twQ2fZzFo_6IBXeZKrdLbX_JwTuQhsg&s");
+    height: 800px;
+    background-size: cover;
 
 }
 section#NRG {
     font-size: 30px;
     color: white;
     padding: 20px;   
-    background-image: url("https://www.riotgames.com/darkroom/1440/a4e88f6b04bf83f1c417e87292b85606:b62ff9b783f3dd26a6321e1440efe13b/riot-games-the-team-behind-worlds-2022-esports-broadcast-league-of-legends.png");
-    height: 600px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzApAkqoROL9z4GUBOAy5gXekdMJ5P5b1LPA&s");
+    height: 800px;
+    background-size: cover;
 
 }
 
