@@ -14,18 +14,11 @@ header {
     padding: 20px;
     text-align: center;
     color: #FFFFFF;
-    position: fixed;
-    width: 100%;
 }
 
-header h1 {
+h1 {
     margin: 0;
     font-size: 2.5em;
-}
-
-.main-content{
-    position: absolute;
-    top: 50px;
 }
 
 h3{
@@ -36,9 +29,12 @@ ul{
     text-align: center; 
 }
 
+.logo{
+    text-align: center;
+}
+
 li{
     list-style-type: none !important;
-    
 }
 
 nav {
@@ -61,6 +57,7 @@ nav a:hover {
 .main-content {
     padding: 20px;
     background-color: #1A1A1A; 
+    text-align: center;
 }
 
 button {
@@ -83,9 +80,10 @@ footer {
     color: #FFFFFF;
     text-align: center;
     padding: 10px;
-    position: fixed;
     width: 100%;
     bottom: 0;
+    margin-left: auto;
+    
 }
 /*downsizing roster images */
 #roster img {
@@ -116,7 +114,7 @@ footer {
 
 
 /* Header container for icons */
-.header {
+.header     {
     display: flex;
     justify-content: space-between;
     align-items: center;
