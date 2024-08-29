@@ -16,7 +16,7 @@ head {
 }
 nav {
     background-color: #333;
-    text-align: center;
+text-align: center;
     background-image: url("https://media.licdn.com/dms/image/C4E12AQG2fk46LjYHHQ/article-cover_image-shrink_720_1280/0/1563894791754?e=2147483647&v=beta&t=GvhZh0uvobpTzM4wY30cr6dKKHK7GkdBSyw3jf_oAd8");
 }
 nav a {
@@ -39,53 +39,45 @@ main {
     background-size: cover;
     flex: 1;
 }
+    
+section#Sentinels, section#Loud, section#NRG {
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+    height: 800px;
+    background-size: cover;
+}
 
 section#Sentinels {
-    font-size: 30px;
-    color: white;
-    padding: 20px;   
     background-image: url("https://cdn.sentinels.gg/images/cards/default.jpg");
-    height: 800px;
-    background-size: cover;
-
 }
+
 section#Loud {
-    font-size: 30px;
-    color: white;
-    padding: 20px;   
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Dd7twQ2fZzFo_6IBXeZKrdLbX_JwTuQhsg&s");
-    height: 800px;
-    background-size: cover;
-
 }
+    
 section#NRG {
-    font-size: 30px;
-    color: white;
-    padding: 20px;   
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzApAkqoROL9z4GUBOAy5gXekdMJ5P5b1LPA&s");
-    height: 800px;
-    background-size: cover;
-
 }
-
+    
 footer {
     width: 100%;
     background: PapayaWhip;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
+         position: fixed;
     left: 0;
     bottom: -100px;
     transform: translateY(100%);
     transition: transform 0.5s ease;
 }
-
-.scroll-container {
+    
+    .scroll-container {
     position: relative;
     overflow-y: auto;
     flex: 1;
 }
-
-.scroll-container:focus-within footer {
+    
+    .scroll-container:focus-within footer {
     transform: translateY(0);
 }
