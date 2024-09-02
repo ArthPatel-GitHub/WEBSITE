@@ -1,22 +1,22 @@
-/* schedule page css */
-
+/* Global Styles */
 body {
-    background-color: #0F1923; 
-    color: #E6E6E6; 
-    font-family: 'Raleway', sans-serif; 
+    background-color: #0F1923; /* Dark Valorant background */
+    color: #E6E6E6; /* Light text color for contrast */
+    font-family: 'Raleway', sans-serif; /* Clean, modern font */
     margin: 0;
     padding: 0;
 }
 
+/* Header Styles */
 .header {
-    background-color: #0F1923; /* Valorant red */
+    background-color: #0F1923; /* Matches the page background */
     padding: 20px;
     text-align: center;
-    color: #FFFFFF;
+    border-bottom: 2px solid #FF4655; /* Valorant red border */
 }
 
 .header .logo img {
-    width: 100px;
+    width: 100px; /* Adjust the logo size */
     height: auto;
 }
 
@@ -28,12 +28,29 @@ h1 {
     letter-spacing: 2px;
 }
 
-li{
+/* Navigation Styles */
+nav {
+    background-color: #1C232B; /* Darker background for contrast */
+    padding: 10px;
     text-align: center;
-    list-style-type: none !important;
 }
 
+nav a {
+    color: #FF4655; /* Valorant red */
+    font-size: 1.2em;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
 
+nav a:hover {
+    background-color: #FF4655;
+    color: #0F1923; /* Background color on hover */
+}
+
+/* Main Content Styles */
 .main-content {
     padding: 20px;
     max-width: 1200px;
@@ -54,25 +71,37 @@ h2 {
     margin-bottom: 20px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .event-date {
-    background-color: #FF4655;
+    background-color: #FF4655; /* Valorant red */
     color: #FFFFFF;
     padding: 15px;
     border-radius: 8px;
     text-align: center;
     margin-right: 20px;
     flex-basis: 25%;
+    flex-shrink: 0;
 }
 
 .event-date p {
     font-size: 1.5em;
     font-weight: bold;
+    margin: 0;
+}
+
+.event-details {
+    flex-grow: 1;
 }
 
 .event-details h3 {
-    color: #FF4655;
+    color: #FF4655; /* Valorant red */
     margin: 0;
     font-size: 1.8em;
 }
@@ -82,13 +111,16 @@ h2 {
     font-size: 1.2em;
 }
 
+/* Footer Styles */
 footer {
-    background-color: #FF4655;
+    background-color: #FF4655; /* Valorant red */
     color: #E6E6E6;
     text-align: center;
     padding: 10px;
+    width: 100%;
     position: relative;
     bottom: 0;
-    width: 100%;
-    margin-top: 40px;
+    left: 0;
+    margin: 0;
+    border-top: 2px solid #0F1923; /* Adds a dark border at the top */
 }
