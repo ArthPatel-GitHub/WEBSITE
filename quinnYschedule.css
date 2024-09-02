@@ -1,15 +1,15 @@
-/* schedule page css */
+/* Valorant-Inspired Schedule Page CSS */
 
 body {
-    background-color: #0F1923; 
-    color: #E6E6E6; 
-    font-family: 'Raleway', sans-serif; 
+    background-color: #0F1923; /* Dark Valorant background */
+    color: #E6E6E6; /* Light text for contrast */
+    font-family: 'Raleway', sans-serif; /* Clean, modern font */
     margin: 0;
     padding: 0;
 }
 
 .header {
-    background-color: #0F1923; /* Valorant red */
+    background-color: #0F1923; /* Match body background */
     padding: 20px;
     text-align: center;
     color: #FFFFFF;
@@ -26,13 +26,26 @@ h1 {
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 2px;
+    color: #FF4655; /* Valorant red */
 }
 
-li{
+nav {
+    background-color: #1C232B; /* Darker background for navigation */
+    padding: 10px 0;
     text-align: center;
-    list-style-type: none !important;
 }
 
+nav a {
+    color: #E6E6E6;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #FF4655; /* Highlighted in Valorant red */
+}
 
 .main-content {
     padding: 20px;
@@ -45,6 +58,7 @@ h2 {
     border-bottom: 2px solid #FF4655;
     padding-bottom: 10px;
     margin-bottom: 20px;
+    color: #FFFFFF;
 }
 
 .event-card {
