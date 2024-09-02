@@ -8,11 +8,19 @@ body {
     min-height: 100vh;
 }
 
+hr {
+    border: 0;
+    height: 1px;
+    background-color: black;
+    color: black;
+}
+
 head {
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRQLUpVlgAnrgbSC63aIMXuhT3E-Vi81HvBg&s");
     color: white;
     padding: 10px 0;
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 nav {
@@ -34,10 +42,10 @@ nav a:hover {
     color: black;
 }
 
-
 main {
-    font-size: 30px;
+    font-size: 50px;
     color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 20px;   
     background-image: url("https://www.riotgames.com/darkroom/1440/a4e88f6b04bf83f1c417e87292b85606:b62ff9b783f3dd26a6321e1440efe13b/riot-games-the-team-behind-worlds-2022-esports-broadcast-league-of-legends.png");
     min-height: 100vh;
@@ -46,12 +54,13 @@ main {
 }
 
 section#Sentinels, section#Loud, section#NRG {
-    font-size: 30px;
+    font-size: 50px;
     color: white;
     padding: 20px;
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 section#Sentinels {
@@ -59,11 +68,11 @@ section#Sentinels {
 }
 
 section#Loud {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Dd7twQ2fZzFo_6IBXeZKrdLbX_JwTuQhsg&s");
+    background-image: url("https://loud.gg/cdn/shop/files/WEB_DESKTOP_HEADER_1.png?v=1717788824&width=3820");
 }
 
 section#NRG {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzApAkqoROL9z4GUBOAy5gXekdMJ5P5b1LPA&s");
+    background-image: url("https://www.nrg.gg/cdn/shop/articles/Blog_Header_LCS.png?v=1724879072&width=1400");
 }
 
 footer {
