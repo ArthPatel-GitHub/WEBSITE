@@ -1,0 +1,69 @@
+<!---ARTH--->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NRG Wins and Future</title>
+    <link rel="stylesheet" href="nrg.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <h1 id="title">NRG Wins and Future</h1>
+
+        <!-- Section for Wins -->
+        <div class="content-section">
+            <h2>NRG Wins</h2>
+            <p>Here you can describe NRG's significant victories across various games. Include tournament wins, key achievements, and highlights of the team's successful moments.</p>
+            <img src="path-to-wins-image.jpg" alt="NRG Wins" class="fade-in">
+        </div>
+
+        <!-- Section for Future Plans -->
+        <div class="content-section">
+            <h2>The Future of NRG</h2>
+            <p>Discuss NRG's future plans, including upcoming tournaments, new team members, and goals for the next seasons. Highlight how NRG plans to maintain and grow its presence in the esports industry.</p>
+            <img src="path-to-future-image.jpg" alt="NRG Future" class="fade-in">
+        </div>
+
+        <!-- Video Section -->
+        <div class="video-section">
+            <h2>Watch Our Journey</h2>
+            <iframe src="https://www.youtube.com/embed/your-video-id" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="fade-in"></iframe>
+        </div>
+
+        <!-- Back to Home Page Button -->
+        <a href="nrg-index.html" class="back-button">Back to Home</a>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const container = document.getElementById("container");
+            const title = document.getElementById("title");
+            const images = document.querySelectorAll(".content-section img");
+            const iframe = document.querySelector(".video-section iframe");
+
+            // Fade in container
+            setTimeout(() => {
+                container.classList.add("fade-in");
+            }, 100);
+
+            // Fade in title
+            setTimeout(() => {
+                title.classList.add("fade-in-h1");
+            }, 600);
+
+            // Fade in images and video
+            images.forEach((image, index) => {
+                setTimeout(() => {
+                    image.classList.add("fade-in");
+                }, 1000 + index * 200);
+            });
+
+            setTimeout(() => {
+                iframe.classList.add("fade-in");
+            }, 1500);
+        });
+    </script>
+</body>
+</html>

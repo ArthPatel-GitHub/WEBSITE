@@ -1,0 +1,131 @@
+<!---ARTH--->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games NRG Play</title>
+    <link rel="stylesheet" href="nrg.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <h1 id="title">Games NRG Play</h1>
+
+        <!-- Fortnite -->
+        <div class="game">
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.fortnite.com%2Fnews&psig=AOvVaw1U_fyArutI0G0F-Ns_5c0N&ust=1725329515625000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLjijb2Xo4gDFQAAAAAdAAAAABAJ" alt="Fortnite">
+            <div class="game-details">
+                <p class="game-title"><a href="#fortnite">Fortnite</a></p>
+                <p>Developer: Epic Games</p>
+                <p>Release Date: July 25, 2017</p>
+                <p>NRG Started Playing: 2018</p>
+                <a href="nrg-teams.html#fortnite-team" class="view-team">View Team Members</a>
+            </div>
+        </div>
+
+        <!-- Apex Legends -->
+        <div class="game">
+            <img src="path-to-apex-legends-image.jpg" alt="Apex Legends">
+            <div class="game-details">
+                <p class="game-title"><a href="#apex-legends">Apex Legends</a></p>
+                <p>Developer: Respawn Entertainment</p>
+                <p>Release Date: February 4, 2019</p>
+                <p>NRG Started Playing: 2019</p>
+                <a href="nrg-teams.html#apex-legends-team" class="view-team">View Team Members</a>
+            </div>
+        </div>
+
+        <!-- Valorant -->
+        <div class="game">
+            <img src="path-to-valorant-image.jpg" alt="Valorant">
+            <div class="game-details">
+                <p class="game-title"><a href="#valorant">Valorant</a></p>
+                <p>Developer: Riot Games</p>
+                <p>Release Date: June 2, 2020</p>
+                <p>NRG Started Playing: 2020</p>
+                <a href="nrg-teams.html#valorant-team" class="view-team">View Team Members</a>
+            </div>
+        </div>
+
+        <!-- Rocket League -->
+        <div class="game">
+            <img src="path-to-rocket-league-image.jpg" alt="Rocket League">
+            <div class="game-details">
+                <p class="game-title"><a href="#rocket-league">Rocket League</a></p>
+                <p>Developer: Psyonix</p>
+                <p>Release Date: July 7, 2015</p>
+                <p>NRG Started Playing: 2016</p>
+                <a href="nrg-teams.html#rocket-league-team" class="view-team">View Team Members</a>
+            </div>
+        </div>
+
+        <!-- Overwatch -->
+        <div class="game">
+            <img src="path-to-overwatch-image.jpg" alt="Overwatch">
+            <div class="game-details">
+                <p class="game-title"><a href="#overwatch">Overwatch</a></p>
+                <p>Developer: Blizzard Entertainment</p>
+                <p>Release Date: May 24, 2016</p>
+                <p>NRG Started Playing: 2016</p>
+                <a href="nrg-teams.html#overwatch-team" class="view-team">View Team Members</a>
+            </div>
+        </div>
+
+        <!-- Call of Duty: Warzone -->
+        <div class="game">
+            <img src="path-to-warzone-image.jpg" alt="Call of Duty: Warzone">
+            <div class="game-details">
+                <p class="game-title"><a href="#warzone">Call of Duty: Warzone</a></p>
+                <p>Developer: Infinity Ward / Raven Software</p>
+                <p>Release Date: March 10, 2020</p>
+                <p>NRG Started Playing: 2020</p>
+                <a href="nrg-teams.html#warzone-team" class="view-team">View Team Members</a>
+            </div>
+        </div>
+
+        <!-- Back to Home Page Button -->
+        <a href="nrg-index.html" class="back-button">Back to Home</a>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const container = document.getElementById("container");
+            const title = document.getElementById("title");
+            const images = document.querySelectorAll(".game img");
+            const gameDetails = document.querySelectorAll(".game-details");
+            const buttons = document.querySelectorAll(".view-team");
+
+            // Fade in container
+            setTimeout(() => {
+                container.classList.add("fade-in");
+            }, 100);
+
+            // Fade in title
+            setTimeout(() => {
+                title.classList.add("fade-in-h1");
+            }, 600);
+
+            // Fade in images and details
+            images.forEach((image, index) => {
+                setTimeout(() => {
+                    image.classList.add("fade-in");
+                }, 1000 + index * 200);
+            });
+
+            gameDetails.forEach((details, index) => {
+                setTimeout(() => {
+                    details.classList.add("fade-in");
+                }, 1500 + index * 200);
+            });
+
+            // Fade in buttons
+            buttons.forEach((button, index) => {
+                setTimeout(() => {
+                    button.classList.add("fade-in");
+                }, 2000 + index * 200);
+            });
+        });
+    </script>
+</body>
+</html>
