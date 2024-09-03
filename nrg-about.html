@@ -1,0 +1,62 @@
+<!---ARTH--->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About NRG</title>
+    <link rel="stylesheet" href="nrg.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <h1 id="title">About NRG</h1>
+        
+        <p id="p1">Welcome to NRG Esports, a professional gaming organization that has made a significant mark in the world of esports. Established in 2016, NRG has been home to some of the most talented players and teams in games like Fortnite, Apex Legends, Valorant, and more.</p>
+
+        <p id="p2"><strong>Our Mission:</strong> To compete at the highest level of esports while fostering a community of passionate gamers and fans. NRG is dedicated to pushing the boundaries of competitive gaming and creating unforgettable experiences for our supporters.</p>
+
+        <p id="p3"><strong>Our Vision:</strong> To become a globally recognized leader in esports, setting standards for excellence, innovation, and integrity in the gaming world.</p>
+
+        <p id="p4"><strong>Our History:</strong> Over the years, NRG has achieved numerous victories in various esports tournaments, earning a reputation as one of the most formidable teams in the industry. From the early days of Overwatch to our current roster of world-class players, NRG has continuously evolved and expanded its reach across multiple game titles.</p>
+
+        <p id="p5"><strong>Our Future:</strong> As we look to the future, NRG is committed to continuing our legacy of success while exploring new opportunities in emerging esports titles and content creation. Our goal is to remain at the forefront of the esports revolution and inspire the next generation of gamers.</p>
+        
+        <!-- Links to Other Pages -->
+        <div class="links">
+            <a href="nrg-index.html" class="button">Back to Home</a>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const container = document.getElementById("container");
+            const title = document.getElementById("title");
+            const paragraphs = document.querySelectorAll("p");
+            const button = document.querySelector(".button");
+
+            // Fade in container
+            setTimeout(() => {
+                container.classList.add("fade-in");
+            }, 100);
+
+            // Fade in title
+            setTimeout(() => {
+                title.classList.add("fade-in-h1");
+            }, 600);
+
+            // Fade in paragraphs one by one
+            paragraphs.forEach((p, index) => {
+                setTimeout(() => {
+                    p.classList.add("fade-in");
+                }, 1000 + index * 200);
+            });
+
+            // Fade in button
+            setTimeout(() => {
+                button.classList.add("fade-in");
+            }, 2000);
+        });
+    </script>
+</body>
+</html>

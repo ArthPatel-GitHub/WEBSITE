@@ -1,0 +1,65 @@
+<!---ARTH--->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Behind NRG</title>
+    <link rel="stylesheet" href="nrg.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <h1 id="title">Story Behind NRG</h1>
+
+        <h2>Our Past</h2>
+        <p>
+            NRG was founded in November 2015 by Sacramento Kings co-owners Mark Mastrov and Andy Miller. Both co-owners had a vision to build a top-tier esports organization. Initially focused on games like Overwatch and Rocket League, NRG quickly established itself as a dominant force in the competitive gaming scene. Our early years were filled with challenges, but our determination and passion for esports propelled us to new heights.
+        </p>
+
+        <h2>Our Present</h2>
+        <p>
+            Today, NRG is a household name in the esports world, known for our exceptional teams in games like Fortnite, Apex Legends, and Valorant. We have a growing community of fans and followers who share our love for competitive gaming. Our present is defined by innovation, with NRG consistently pushing the boundaries of what it means to be a professional esports organization.
+        </p>
+
+        <h2>Our Future</h2>
+        <p>
+            Looking forward, NRG is committed to expanding our reach and influence in the esports industry. Our future goals include not only winning more championships but also creating engaging content, growing our fan base, and exploring new opportunities in emerging games and technologies. We are excited for what lies ahead and are dedicated to continuing our legacy of success.
+        </p>
+
+        <!-- Back to Home Page Button -->
+        <a href="nrg-index.html" class="back-button">Back to Home</a>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const container = document.getElementById("container");
+            const title = document.getElementById("title");
+            const paragraphs = document.querySelectorAll("p");
+            const button = document.querySelector(".back-button");
+
+            // Fade in container
+            setTimeout(() => {
+                container.classList.add("fade-in");
+            }, 100);
+
+            // Fade in title
+            setTimeout(() => {
+                title.classList.add("fade-in-h1");
+            }, 600);
+
+            // Fade in paragraphs one by one
+            paragraphs.forEach((p, index) => {
+                setTimeout(() => {
+                    p.classList.add("fade-in");
+                }, 1000 + index * 200);
+            });
+
+            // Fade in button
+            setTimeout(() => {
+                button.classList.add("fade-in");
+            }, 2000);
+        });
+    </script>
+</body>
+</html>
