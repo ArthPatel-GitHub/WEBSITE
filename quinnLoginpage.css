@@ -1,4 +1,8 @@
 /* Login page styles */
+body{
+    background-color: #DC3545;
+}
+
 .login-container {
     width: 100%;
     max-width: 400px;

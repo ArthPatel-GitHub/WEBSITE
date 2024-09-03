@@ -1,22 +1,21 @@
 /* Global Styles */
 body {
-    background-color: #0F1923; /* Dark Valorant background */
-    color: #E6E6E6; /* Light text color for contrast */
-    font-family: 'Raleway', sans-serif; /* Clean, modern font */
+    background-color: #0F1923; 
+    color: #E6E6E6; 
+    font-family: 'Raleway', sans-serif; 
     margin: 0;
     padding: 0;
 }
 
-/* Header Styles */
 .header {
-    background-color: #0F1923; /* Matches the page background */
+    background-color: #0F1923; 
     padding: 20px;
     text-align: center;
-    border-bottom: 2px solid #FF4655; /* Valorant red border */
+    border-bottom: 2px solid #FF4655; 
 }
 
 .header .logo img {
-    width: 100px; /* Adjust the logo size */
+    width: 100px; 
     height: auto;
 }
 
@@ -28,15 +27,14 @@ h1 {
     letter-spacing: 2px;
 }
 
-/* Navigation Styles */
 nav {
-    background-color: #1C232B; /* Darker background for contrast */
+    background-color: #1C232B; 
     padding: 10px;
     text-align: center;
 }
 
 nav a {
-    color: #FF4655; /* Valorant red */
+    color: #FF4655; 
     font-size: 1.2em;
     text-decoration: none;
     display: inline-block;
@@ -47,10 +45,9 @@ nav a {
 
 nav a:hover {
     background-color: #FF4655;
-    color: #0F1923; /* Background color on hover */
+    color: #0F1923; 
 }
 
-/* Main Content Styles */
 .main-content {
     padding: 20px;
     max-width: 1200px;
@@ -80,7 +77,7 @@ h2 {
 }
 
 .event-date {
-    background-color: #FF4655; /* Valorant red */
+    background-color: #FF4655; 
     color: #FFFFFF;
     padding: 15px;
     border-radius: 8px;
@@ -101,7 +98,7 @@ h2 {
 }
 
 .event-details h3 {
-    color: #FF4655; /* Valorant red */
+    color: #FF4655; 
     margin: 0;
     font-size: 1.8em;
 }
@@ -111,9 +108,8 @@ h2 {
     font-size: 1.2em;
 }
 
-/* Footer Styles */
 footer {
-    background-color: #FF4655; /* Valorant red */
+    background-color: #FF4655; 
     color: #E6E6E6;
     text-align: center;
     padding: 10px;
@@ -122,5 +118,5 @@ footer {
     bottom: 0;
     left: 0;
     margin: 0;
-    border-top: 2px solid #0F1923; /* Adds a dark border at the top */
+    border-top: 2px solid #0F1923;
 }
