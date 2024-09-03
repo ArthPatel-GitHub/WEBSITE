@@ -8,13 +8,6 @@ body {
     min-height: 100vh;
 }
 
-hr {
-    border: 0;
-    height: 1px;
-    background-color: black;
-    color: black;
-}
-
 head {
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRQLUpVlgAnrgbSC63aIMXuhT3E-Vi81HvBg&s");
     color: white;
