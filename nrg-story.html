@@ -1,65 +1,35 @@
-<!---ARTH--->
+<!--ARTH-->
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Story Behind NRG</title>
+    <title>The Story of NRG</title>
     <link rel="stylesheet" href="nrg.css">
 </head>
 <body>
-    <div class="container" id="container">
-        <h1 id="title">Story Behind NRG</h1>
-
-        <h2>Our Past</h2>
+    <div class="container">
+        <h1>Our Story</h1>
         <p>
-            NRG was founded in November 2015 by Sacramento Kings co-owners Mark Mastrov and Andy Miller. Both co-owners had a vision to build a top-tier esports organization. Initially focused on games like Overwatch and Rocket League, NRG quickly established itself as a dominant force in the competitive gaming scene. Our early years were filled with challenges, but our determination and passion for esports propelled us to new heights.
+            NRG was founded with the goal of becoming the best in the world. From humble beginnings, the team has grown to become a powerhouse in esports, competing in games like Overwatch, Fortnite, and many more.
         </p>
 
-        <h2>Our Present</h2>
-        <p>
-            Today, NRG is a household name in the esports world, known for our exceptional teams in games like Fortnite, Apex Legends, and Valorant. We have a growing community of fans and followers who share our love for competitive gaming. Our present is defined by innovation, with NRG consistently pushing the boundaries of what it means to be a professional esports organization.
-        </p>
+        <!-- Story Image -->
+        <div class="image-section">
+            <img src="story-image.jpg" alt="NRG History" style="width:100%; border-radius:10px;">
+        </div>
 
-        <h2>Our Future</h2>
-        <p>
-            Looking forward, NRG is committed to expanding our reach and influence in the esports industry. Our future goals include not only winning more championships but also creating engaging content, growing our fan base, and exploring new opportunities in emerging games and technologies. We are excited for what lies ahead and are dedicated to continuing our legacy of success.
-        </p>
-
-        <!-- Back to Home Page Button -->
-        <a href="nrg-home.html" class="back-button">Back to Home</a>
+        <!-- Navigation Links -->
+        <div class="nav-buttons">
+            <a href="nrg-about.html" class="button">About Us</a>
+            <a href="nrg-teams.html" class="button">Meet the Team</a>
+            <a href="nrg-games.html" class="button">Our Games</a>
+            <a href="nrg-win-and-future.html" class="button">Wins & Future</a>
+            <a href="index.html" class="home-button">Home</a>
+        </div>
     </div>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const container = document.getElementById("container");
-            const title = document.getElementById("title");
-            const paragraphs = document.querySelectorAll("p");
-            const button = document.querySelector(".back-button");
-
-            // Fade in container
-            setTimeout(() => {
-                container.classList.add("fade-in");
-            }, 100);
-
-            // Fade in title
-            setTimeout(() => {
-                title.classList.add("fade-in-h1");
-            }, 600);
-
-            // Fade in paragraphs one by one
-            paragraphs.forEach((p, index) => {
-                setTimeout(() => {
-                    p.classList.add("fade-in");
-                }, 1000 + index * 200);
-            });
-
-            // Fade in button
-            setTimeout(() => {
-                button.classList.add("fade-in");
-            }, 2000);
-        });
-    </script>
+    <script src="nrg.js"></script>
 </body>
 </html>

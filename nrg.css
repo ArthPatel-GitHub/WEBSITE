@@ -55,5 +55,43 @@
                 opacity: 1;
             }
         }
+        @keyframes backgroundAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #f0f0f0;
+    background-color: #121212; /* Fallback background */
+}
+.button, .home-button {
+    padding: 15px 30px;
+    background-color: #ff0000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    border: 2px solid #ff0000;
+    transition: all 0.3s ease;
+}
+
+.button:hover, .home-button:hover {
+    background-color: #fff;
+    color: #ff0000;
+    border-color: #fff;
+    cursor: pointer;
+}
+
+
 
         

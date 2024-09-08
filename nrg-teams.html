@@ -5,92 +5,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NRG Team Members</title>
+    <title>Meet the Team</title>
     <link rel="stylesheet" href="nrg.css">
 </head>
 <body>
-    <div class="container" id="container">
-        <h1 id="title">NRG Team Members</h1>
+    <div class="container">
+        <h1>Meet the Team</h1>
 
-        <!-- Member 1 -->
-        <div class="member">
-            <img src="https://static.wikia.nocookie.net/fortnite_esports_gamepedia_en/images/b/b3/Benjyfishy_NRG_2022.png/revision/latest?cb=20230830201719.jpeg" alt="Benjyfishy">
-            <div class="member-details">
-                <p class="member-title">Benjyfishy - Fortnite</p>
-                <p>Benjy David Fish (Benjyfishy) is a top-tier Fortnite competitor known for his exceptional building skills and strategic gameplay. He has been with NRG since 2019 and has led the team to numerous victories.</p>
-            </div>
+        <!-- Team Member Section Example -->
+        <div class="team-member">
+            <h2>John Doe</h2>
+            <p>Game: Overwatch</p>
+            <p>John is a world-class Overwatch player and has been with NRG for 3 years.</p>
+            <img src="john.jpg" alt="John Doe" style="width:50%; border-radius:10px;">
         </div>
 
-        <!-- Member 2 -->
-        <div class="member">
-            <img src="path-to-member2-image.jpg" alt="Rogue">
-            <div class="member-details">
-                <p class="member-title">Rogue - Apex Legends</p>
-                <p>Tanner Trebb (Rogue) is an Apex Legends expert, recognized for his quick reflexes and sharp shooting. Joining NRG in 2019, he quickly became a key player in the team's success in Apex tournaments.</p>
-            </div>
+        <div class="team-member">
+            <h2>Jane Smith</h2>
+            <p>Game: Fortnite</p>
+            <p>Jane is known for her incredible Fortnite plays and strategic thinking.</p>
+            <img src="jane.jpg" alt="Jane Smith" style="width:50%; border-radius:10px;">
         </div>
 
-        <!-- Member 3 -->
-        <div class="member">
-            <img src="path-to-member3-image.jpg" alt="S0M">
-            <div class="member-details">
-                <p class="member-title">S0M - Valorant</p>
-                <p>S0M is a Valorant pro known for his tactical approach and clutch plays. Since joining NRG in 2020, he has been a crucial part of the team's Valorant lineup.</p>
-            </div>
+        <!-- Navigation Links -->
+        <div class="nav-buttons">
+            <a href="nrg-story.html" class="button">Our Story</a>
+            <a href="nrg-games.html" class="button">Our Games</a>
+            <a href="nrg-win-and-future.html" class="button">Wins & Future</a>
+            <a href="index.html" class="home-button">Home</a>
         </div>
-
-        <!-- Member 4 -->
-        <div class="member">
-            <img src="path-to-member4-image.jpg" alt="Aqua">
-            <div class="member-details">
-                <p class="member-title">Aqua - Rocket League</p>
-                <p>Aqua is a Rocket League champion with a flair for aerial goals and incredible saves. He has been with NRG since 2016 and is one of the most respected players in the Rocket League community.</p>
-            </div>
-        </div>
-
-        <!-- Member 5 -->
-        <div class="member">
-            <img src="path-to-member5-image.jpg" alt="Cal">
-            <div class="member-details">
-                <p class="member-title">Cal - Overwatch</p>
-                <p>Cal is a seasoned Overwatch player, known for his versatility and team coordination. He joined NRG in 2016 and has played a pivotal role in the team's Overwatch achievements.</p>
-            </div>
-        </div>
-
-        <!-- Back to Home Page Button -->
-        <a href="nrg-home.html" class="back-button">Back to Home</a>
     </div>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const container = document.getElementById("container");
-            const title = document.getElementById("title");
-            const images = document.querySelectorAll(".member img");
-            const memberDetails = document.querySelectorAll(".member-details");
-
-            // Fade in container
-            setTimeout(() => {
-                container.classList.add("fade-in");
-            }, 100);
-
-            // Fade in title
-            setTimeout(() => {
-                title.classList.add("fade-in-h1");
-            }, 600);
-
-            // Fade in images and details
-            images.forEach((image, index) => {
-                setTimeout(() => {
-                    image.classList.add("fade-in");
-                }, 1000 + index * 200);
-            });
-
-            memberDetails.forEach((details, index) => {
-                setTimeout(() => {
-                    details.classList.add("fade-in");
-                }, 1500 + index * 200);
-            });
-        });
-    </script>
+    <script src="nrg.js"></script>
 </body>
 </html>
+

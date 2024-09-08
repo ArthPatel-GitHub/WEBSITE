@@ -1,69 +1,58 @@
-<!---ARTH--->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NRG Wins and Future</title>
+    <title>Wins & Future of NRG</title>
     <link rel="stylesheet" href="nrg.css">
 </head>
 <body>
-    <div class="container" id="container">
-        <h1 id="title">NRG Wins and Future</h1>
+    <div class="container">
+        <h1>Wins & Future</h1>
 
-        <!-- Section for Wins -->
-        <div class="content-section">
-            <h2>NRG Wins</h2>
-            <p>Here you can describe NRG's significant victories across various games. Include tournament wins, key achievements, and highlights of the team's successful moments.</p>
-            <img src="path-to-wins-image.jpg" alt="NRG Wins" class="fade-in">
+        <!-- Wins Section -->
+        <div class="wins-section">
+            <h2>Our Wins</h2>
+            <p>We are the best. We have been been a top contender in esports, with multiple championship titles under our belt. Here are some of our most notable victories:</p>
+            <ul>
+                <li>Overwatch League Champions - 2019</li>
+                <li>Fortnite World Cup Winners - 2020</li>
+                <li>Valorant International Tournament - 2022</li>
+                <li>Rocket League Championship Series - 2023</li>
+            </ul>
+        </p> We still plan on to get stronger by the second, dominating in all aspects of every competition and championships. Only striving to win more.
+
+            <!-- Wins Image -->
+            <div class="image-section">
+                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fliquipedia.net%2Frocketleague%2FNRG&psig=AOvVaw30I1Mmv0cWPTPqe8BPAHT6&ust=1725571168435000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJiJmNabqogDFQAAAAAdAAAAABAJ" alt="NRG Winning Moments" style="width:100%; border-radius:10px;">
+            </div>
         </div>
 
-        <!-- Section for Future Plans -->
-        <div class="content-section">
+        <!-- Future Section -->
+        <div class="future-section">
             <h2>The Future of NRG</h2>
-            <p>Discuss NRG's future plans, including upcoming tournaments, new team members, and goals for the next seasons. Highlight how NRG plans to maintain and grow its presence in the esports industry.</p>
-            <img src="path-to-future-image.jpg" alt="NRG Future" class="fade-in">
+            <p>NRG is always looking forward. As e-sports continues to grow, we aim to expand into new games, engage with more fans, and continue setting trends in the industry.</p>
+            <p>We have many future goals. We are expanding our team to new games like Apex Legends and League of Legends so we can dominate
+                in all games, we also are going to be building a global fan base with new partnerships. We are making innovating ideas with our
+                training programs and technologies. Most importantly, Setting new records in e-sports viewership and participation like never before.</p>
+          
+
+            <!-- Future Image -->
+            <div class="image-section">
+                <img src="future-image.jpg" alt="The Future of NRG" style="width:100%; border-radius:10px;">
+            </div>
         </div>
 
-        <!-- Video Section -->
-        <div class="video-section">
-            <h2>Watch Our Journey</h2>
-            <iframe src="https://www.youtube.com/embed/your-video-id" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="fade-in"></iframe>
+        <!-- Navigation Links -->
+        <div class="nav-buttons">
+            <a href="nrg-about.html" class="button">About Us</a>
+            <a href="nrg-story.html" class="button">Our Story</a>
+            <a href="nrg-teams.html" class="button">Meet the Team</a>
+            <a href="nrg-games.html" class="button">Our Games</a>
+            <a href="home.html" class="home-button">Home</a>
         </div>
-
-        <!-- Back to Home Page Button -->
-        <a href="nrg-home.html" class="back-button">Back to Home</a>
     </div>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const container = document.getElementById("container");
-            const title = document.getElementById("title");
-            const images = document.querySelectorAll(".content-section img");
-            const iframe = document.querySelector(".video-section iframe");
-
-            // Fade in container
-            setTimeout(() => {
-                container.classList.add("fade-in");
-            }, 100);
-
-            // Fade in title
-            setTimeout(() => {
-                title.classList.add("fade-in-h1");
-            }, 600);
-
-            // Fade in images and video
-            images.forEach((image, index) => {
-                setTimeout(() => {
-                    image.classList.add("fade-in");
-                }, 1000 + index * 200);
-            });
-
-            setTimeout(() => {
-                iframe.classList.add("fade-in");
-            }, 1500);
-        });
-    </script>
+    <script src="nrg.js"></script>
 </body>
 </html>
