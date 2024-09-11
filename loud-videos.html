@@ -1,0 +1,69 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loud Esports - Featured Videos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .video-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px 0;
+        }
+
+        .video {
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            max-width: 320px;
+            text-align: center;
+        }
+
+        iframe {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .description {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Loud Esports - Featured Videos</h1>
+    </header>
+    <div class="video-container">
+        <div class="video">
+            <iframe src="https://www.youtube.com/watch?v=WiCckKMLWPY" frameborder="0" allowfullscreen></iframe>
+            <div class="description">Latest highlights</div>
+        </div>
+        <div class="video">
+            <iframe src="https://www.youtube.com/watch?v=saF-ywllha4" frameborder="0" allowfullscreen></iframe>
+            <div class="description">Behind the Scenes</div>
+        </div>
+        <div class="video">
+            <iframe src="https://www.youtube.com/watch?v=LO4cXUPwzII" frameborder="0" allowfullscreen></iframe>
+            <div class="description">Best plays</div>
+        </div>
+    </div>
+</body>
+</html>
