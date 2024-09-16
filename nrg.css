@@ -92,6 +92,35 @@ body {
     cursor: pointer;
 }
 
+/* Highlight active button */
+.nav-buttons .button.active {
+    background-color: #fff;
+    color: #ff0000;
+    font-weight: bold;
+    border: 2px solid #ff0000;
+}
+
+/* Bold text for small contrast */
+p {
+    font-weight: 600;
+    color: #f0f0f0;
+}
+
+/* Optional: Improve contrast for smaller text */
+.small-text {
+    font-weight: bold;
+    font-size: 1em;
+    color: #ccc;
+}
+/* Active button styling */
+.button.active {
+    background-color: #007bff; /* Change background color */
+    color: white; /* Text color */
+    font-weight: bold; /* Make text bold */
+    border: 2px solid #0056b3; /* Optional: Add border for clarity */
+}
+
+
 
 
         
