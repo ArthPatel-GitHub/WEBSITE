@@ -44,3 +44,6 @@ document.addEventListener("DOMContentLoaded", () => {
   body.style.animation = "backgroundAnimation 10s ease infinite";
 });
 
+window.scrollTo(0, document.body.scrollHeight);
+window.scrollTo(0, 0);
+
