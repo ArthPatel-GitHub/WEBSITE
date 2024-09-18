@@ -1,126 +1,190 @@
-/*ARTHS*/
-    
-        body {
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #000, #E53B2C, #fff);
-            color: #fff;
-            margin: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .container {
-            text-align: center;
-            border: 5px solid #E53B2C;
-            padding: 50px;
-            background-color: rgba(0, 0, 0, 0.8);
-            opacity: 0;
-            animation: fadeIn 2s forwards;
-        }
-
-        h1 {
-            font-size: 48px;
-            margin-bottom: 40px;
-            text-transform: uppercase;
-        }
-
-        .links {
-            margin-top: 20px;
-        }
-
-        .links a {
-            display: inline-block;
-            color: #fff;
-            text-decoration: none;
-            font-size: 18px;
-            margin: 10px;
-            padding: 15px 30px;
-            border: 2px solid #E53B2C;
-            border-radius: 5px;
-            background-color: rgba(0, 0, 0, 0.7);
-            transition: background-color 0.3s, transform 0.3s;
-            text-transform: uppercase;
-            font-weight: bold;
-        }
-
-        .links a:hover {
-            background-color: #E53B2C;
-            transform: scale(1.1);
-        }
-
-        @keyframes fadeIn {
-            to {
-                opacity: 1;
-            }
-        }
-        @keyframes backgroundAnimation {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
+/* General Body Styling */
 body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Full black background */
+    color: #fff;
     margin: 0;
-    padding: 0;
-    font-family: 'Arial', sans-serif;
-    color: #f0f0f0;
-    background-color: #121212; /* Fallback background */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow-x: hidden;
+    overflow-y: auto; /* Enable vertical scrolling */
 }
-.button, .home-button {
+
+/* Main content container */
+.container {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    border: 10px solid #E53B2C; /* Red outline border */
+    background-color: #000; /* Black inside */
+    padding: 40px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); /* Slight shadow */
+    overflow-y: auto; /* Vertical scrolling */
+}
+
+/* Header Titles */
+h1, h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #ff0000;
+}
+
+/* Navigation Buttons */
+.links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.links a {
+    display: inline-block;
+    color: #fff; /* White font color */
+    text-decoration: none;
+    font-size: 22px; /* Larger font size */
+    margin: 10px;
+    padding: 20px 40px; /* Larger button size */
+    border: 2px solid #E53B2C;
+    border-radius: 5px;
+    background-color: red; /* Orange background */
+    transition: background-color 0.3s, transform 0.3s;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.links a:hover {
+    background-color: red; /* Lighter orange on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Active Navigation Button */
+.links a.active {
+    background-color: red; /* Brighter orange for active/current page */
+    color: #fff;
+    cursor: default; /* Disable click on the current page */
+    font-weight: bolder;
+}
+
+/* Video Section */
+.video-section {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.video-section iframe {
+    width: 100%;
+    max-width: 900px;
+    height: 500px;
+    border-radius: 10px;
+    border: 5px solid #ff0000; /* Red border around video */
+    background-color: #000; /* Black inside */
+}
+
+/* Home Button */
+.home-button-wrapper {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.home-button {
     padding: 15px 30px;
     background-color: #ff0000;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 1.2em;
     border: 2px solid #ff0000;
+    font-size: 1.2em;
+    text-transform: uppercase;
     transition: all 0.3s ease;
 }
 
-.button:hover, .home-button:hover {
+.home-button:hover {
     background-color: #fff;
     color: #ff0000;
-    border-color: #fff;
-    cursor: pointer;
 }
 
-/* Highlight active button */
-.nav-buttons .button.active {
-    background-color: #fff;
-    color: #ff0000;
-    font-weight: bold;
-    border: 2px solid #ff0000;
+/* Contact Section */
+.contact-section {
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background */
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid #E53B2C; /* Red border */
+    text-align: center;
 }
 
-/* Bold text for small contrast */
-p {
-    font-weight: 600;
-    color: #f0f0f0;
+.contact-section p,
+.contact-section a {
+    color: #fff;
+    font-size: 1.2em;
 }
 
-/* Optional: Improve contrast for smaller text */
+.contact-section a {
+    text-decoration: underline;
+}
+
+/* Small text styling */
 .small-text {
-    font-weight: bold;
+    font-weight: bold; /* Make all small text bold */
     font-size: 1em;
     color: #ccc;
 }
-/* Active button styling */
-.button.active {
-    background-color: #007bff; /* Change background color */
-    color: white; /* Text color */
-    font-weight: bold; /* Make text bold */
-    border: 2px solid #0056b3; /* Optional: Add border for clarity */
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
 }
 
+/* Utility class for spacing */
+.spacer {
+    margin-bottom: 20px;
+}
 
+/* Add a fade-in animation on page load */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 2s forwards; /* Adjusted animation duration */
+}
 
+/* Style for all buttons */
+.button, .home-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red; /* Red background */
+    color: white; /* White font */
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
 
-        
+.button:hover, .home-button:hover {
+    background-color: darkred; /* Darker red on hover */
+}
+
+.active {
+    background-color: white; /* The button of the current page */
+    color: red; /* Text color of active button */
+    border: 2px solid red; /* Optional border to show it's active */
+}
+
+/* Other styles for layout, typography, etc. */
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav.links a {
+    margin: 0 10px;
+}
+
+.video-section {
+    text-align: center;
+    margin: 30px 0;
+}
