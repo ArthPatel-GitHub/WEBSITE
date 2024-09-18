@@ -1,6 +1,6 @@
+
+
 /* Sentinels Esports Theme */
-
-
 header {
     background-color: #DC3545; /* Sentinels' red */
     padding: 20px;
@@ -11,7 +11,7 @@ header {
 }
 
 
-body {
+body{
     background-color: #0A0A0A; 
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif; 
@@ -29,22 +29,22 @@ h3{
     text-align: center;
 }
 
-ul{
-    text-align: center; 
+li{
+    list-style-type: none !important;
 }
 
 img{
     text-align: center;
 }
 
-li{
-    list-style-type: none !important;
-}
-
 nav {
     background-color: #333333; 
     padding: 10px;
     text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
 }
 
 nav a {
@@ -103,8 +103,9 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
+
 #logos img {
-    width: 30px; 
+    width: 50px; 
     height: auto; 
     margin-bottom: 20px;
     border-radius: 10px; 
@@ -112,9 +113,8 @@ footer {
     display: block; 
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
-
-
 
 
 
@@ -132,7 +132,6 @@ footer {
 
 .header-icons {
     display: flex;
-    align-items: center;
 }
 
 /* Person Icon styles */
