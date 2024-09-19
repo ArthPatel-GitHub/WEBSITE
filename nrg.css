@@ -10,6 +10,12 @@ body {
     align-items: flex-start;
     overflow-x: hidden;
     overflow-y: auto; /* Enable vertical scrolling */
+    font-weight: bold; /* Make all text bold */
+}
+
+/* Universal selector to apply bold to every text element */
+* {
+    font-weight: bold;
 }
 
 /* Main content container */
@@ -119,6 +125,7 @@ h1, h2 {
 .contact-section a {
     color: #fff;
     font-size: 1.2em;
+    font-weight: bold;
 }
 
 .contact-section a {
@@ -127,7 +134,6 @@ h1, h2 {
 
 /* Small text styling */
 .small-text {
-    font-weight: bold; /* Make all small text bold */
     font-size: 1em;
     color: #ccc;
 }
