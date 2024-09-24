@@ -194,3 +194,32 @@ nav.links a {
     text-align: center;
     margin: 30px 0;
 }
+/* Footer Styling */
+footer {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 20px 0; /* Space inside the footer */
+    border-top: 5px solid #E53B2C; /* Red border at the top of the footer */
+    margin-top: 40px; /* Space between content and footer */
+}
+
+footer p {
+    margin: 5px 0; /* Space between text elements */
+    font-size: 1.1em; /* Slightly larger font size */
+}
+
+footer a {
+    color: #E53B2C; /* Red link color */
+    text-decoration: none; /* Remove underline */
+    margin: 0 10px; /* Space between links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+footer a:visited {
+    color: #ff6666; /* Slightly lighter red for visited links */
+}
+
